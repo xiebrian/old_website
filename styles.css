@@ -1,0 +1,193 @@
+
+body {
+	margin: 0px;
+}
+
+#header-wrapper {
+	background-color: rgb(100, 100, 100);
+}
+
+/*-------------------------------------TITLE-------------------------------------*/
+
+h1 { 
+	font-size: 3.25em;
+	color: #FFFFFF;
+	text-align: center;
+	margin: auto;
+	padding-top: 0.6em;
+	padding-bottom: 0.6em;
+}
+
+/*--------------------------------SEPARATION BAR---------------------------------*/
+
+hr {
+	width: 40em;
+	height: 1px;
+	margin-top: 1.5px;
+	margin-bottom: 1.5px;
+	color: purple;
+}
+
+/*-------------------------------------TABS--------------------------------------*/
+
+#tabs {
+	width: 40em;
+	margin: auto;
+	text-align: center;
+	padding: 0.5em 0em;
+}
+
+button {
+	border: none;
+	outline: none;
+	background-color: rgb(100, 100, 100);
+	color: #FFFFFF;
+	font-size: 1.2em;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin: none;
+}
+
+button:hover {
+	cursor: pointer;
+	color: rgb(255, 223, 0);
+}
+
+button.active {
+	color: color: rgb(255, 223, 0);
+}
+
+/*---------------------------------MAIN CONTENT----------------------------------*/
+
+#main-content {
+	display: none;
+	width: 40em;
+	margin: auto;
+	text-align: left;
+}
+
+.dropdown-info {
+	overflow: hidden; /*this resolves the bug of text "jumping" around*/
+	margin-left: 15px;
+	padding: 0em;
+}
+
+h3 { /* h3 == main headings within text */
+	text-align: center;
+}
+
+h4 { /* h4 == reveal-buttons with hidden info */
+	margin: 0em;
+	padding: 0.5em 0em 0.5em 0em;
+}
+
+h5 { /* h5 == lesser main headings within text */
+	text-align: center;
+	font-size: 1.15em;
+}
+
+h6 { /* h6 == not really a header, more like metadata description */
+	margin: 1em 0em;
+	font-size: 1em;
+}
+
+h4:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+/* Home */
+
+/* Projects */
+
+#Projects {
+	margin: 0.25em 0em 0.25em 0em;
+}
+
+#Projects hr {
+	color: rgba(13, 26, 38, 0.7);
+	margin: 0;
+}
+
+#Projects h4 {
+	font-weight: normal;
+	text-align: center;
+}
+
+img.graph_conv {
+	width: 38.125em;
+	height: 29.959em;
+}
+
+#Projects .dropdown-info {
+	margin: 0;
+}
+
+.project-description p {
+	margin: 0.15em 0em
+}
+
+/* Coursework */
+
+#Coursework {
+	max-width: 500px;
+	margin: auto;
+}
+
+#Coursework h4:hover {
+	text-decoration: none;
+	cursor: auto;
+}
+
+#Coursework .displayed-info {
+	margin-left: 15px;
+	line-height: 0.15em;
+}
+
+.sidenote {
+	margin-top: 4em;
+	font-size: 10px;
+}
+
+/* Personal Corner */
+
+img.personal-pic {
+	width: 29%;
+	height: auto;
+	margin: 2.5% 1.75% 0 1.75%;
+}
+
+img.personal-pic:hover {
+	cursor: pointer;
+}
+
+
+#Personal-Corner hr {
+	color: rgba(13, 26, 38, 0.7);
+	margin: 0;
+}
+
+#Personal-Corner h4 {
+	font-weight: normal;
+	text-align: center;
+}
+
+#Personal-Corner .dropdown-info {
+	margin: 0;
+}
+
+.article-description p {
+	margin: 0.15em 0em
+}
+
+.inner-pic {
+	width: 100%;
+	height: auto;
+}
+
+/* Footer (just to pad the bottom of the website) */
+
+footer { 
+	visibility: hidden;
+}
